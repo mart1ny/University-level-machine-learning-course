@@ -17,6 +17,7 @@
 
 ## Документы
 
+- [Краткий учебный план в формате Word](docs/kratkiy_uchebnyy_plan.docx)
 - [Программа курса](syllabus/course_program.md)
 - [Рейтинговая система и домашние задания](syllabus/grading_and_homework.md)
 - [Методическая система на основе «Тренировок по ML 1.0» Яндекса](syllabus/yandex_ml_training_methodology.md)
