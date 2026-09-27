@@ -37,6 +37,17 @@ body { background: #f9fcff; }
 .reveal .three-lines { margin-top: 30px; max-width: 1260px; }
 .reveal .three-lines p { display: grid; grid-template-columns: 310px 1fr; gap: 30px; padding: 19px 0; border-bottom: 2px solid var(--line); font-size: .73em; margin: 0; }
 .reveal .three-lines strong { color: #0f63d6; font-weight: 800; }
+.reveal .week-list { margin-top: -10px; max-width: 1290px; }
+.reveal .week-list p { display: grid; grid-template-columns: 90px 1fr; gap: 25px; align-items: center; margin: 0; padding: 15px 0; border-bottom: 2px solid var(--line); font-size: .69em; }
+.reveal .week-list b { color: #0f63d6; font-size: 1.25em; }
+.reveal .algorithm-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 45px; margin-top: -8px; }
+.reveal .algorithm-grid p { display: grid; grid-template-columns: 245px 1fr; gap: 12px; padding: 19px 0; border-bottom: 2px solid var(--line); margin: 0; font-size: .6em; }
+.reveal .algorithm-grid strong { color: #0f63d6; }
+.reveal .example { color: #0f63d6; font-weight: 700; }
+.reveal .comparison .formula { font-size: .79em; margin-top: 15px; }
+.reveal .hero-formula { margin: 15px 0 35px; }
+.reveal .quiz { margin-top: -10px; }
+.reveal .quiz p { grid-template-columns: 70px 1fr; }
 .reveal .process { display: flex; align-items: center; gap: 25px; margin-top: 95px; flex-wrap: wrap; font-size: .7em; font-weight: 800; }
 .reveal .process span { display: inline-block; padding-bottom: 12px; border-bottom: 5px solid var(--yellow); }
 .reveal .process b { color: var(--blue); font-size: 1.15em; }
