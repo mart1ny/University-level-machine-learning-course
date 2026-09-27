@@ -17,6 +17,7 @@
 
 ## Документы
 
+- [Пара 1: презентация Reveal.js и материалы преподавателя](materials/Пара1/README.md)
 - [Краткий учебный план в формате Word](docs/kratkiy_uchebnyy_plan.docx)
 - [Краткий учебный план в формате PDF](output/pdf/kratkiy_uchebnyy_plan.pdf)
 - [Программа курса](syllabus/course_program.md)
