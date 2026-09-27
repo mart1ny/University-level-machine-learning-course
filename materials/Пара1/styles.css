@@ -66,4 +66,7 @@ body { background: #f9fcff; }
 .reveal .closing-slide h2 { font-size: 2.1em; margin-top: 90px; }
 .reveal .slide-number { color: #526986; font-size: 16px; }
 .reveal .progress { color: var(--blue); height: 5px; }
+.reveal.post-mode .controls,
+.reveal.post-mode .progress,
+.reveal.post-mode .slide-number { display: none !important; }
 @media print { .reveal .slides section { box-shadow: none; } }

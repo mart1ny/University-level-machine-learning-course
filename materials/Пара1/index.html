@@ -357,6 +357,9 @@
       center: false,
       plugins: [RevealNotes]
     });
+    if (new URLSearchParams(window.location.search).has('post')) {
+      document.querySelector('.reveal').classList.add('post-mode');
+    }
   </script>
 </body>
 </html>
