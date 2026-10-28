@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" fill="none">
+<rect width="720" height="460" rx="16" fill="#ffffff"/>
+
+<line x1="60" y1="30" x2="60" y2="400" stroke="#102044" stroke-width="3"/>
+<line x1="60" y1="400" x2="680" y2="400" stroke="#102044" stroke-width="3"/>
+<line x1="136" y1="291" x2="686" y2="84" stroke="#e0b000" stroke-width="4" stroke-dasharray="10 8"/>
+<line x1="136" y1="279" x2="686" y2="149" stroke="#1168e8" stroke-width="5"/>
+<circle cx="180" cy="270" r="8" fill="#102044"/><circle cx="257" cy="239" r="8" fill="#102044"/><circle cx="334" cy="214" r="8" fill="#102044"/><circle cx="411" cy="183" r="8" fill="#102044"/><circle cx="488" cy="158" r="8" fill="#102044"/><circle cx="576" cy="127" r="8" fill="#102044"/><circle cx="642" cy="102" r="8" fill="#102044"/>
+<circle cx="532" cy="357" r="9" fill="#c59200"/>
+<text x="78" y="28" fill="#49617f" font-family="Manrope, Arial" font-size="22">y</text>
+<text x="200" y="28" fill="#1168e8" font-family="Manrope, Arial" font-size="20">сплошная — квадрат</text>
+<text x="460" y="28" fill="#a07d00" font-family="Manrope, Arial" font-size="20">пунктир — модуль</text>
+<text x="640" y="432" fill="#49617f" font-family="Manrope, Arial" font-size="22">x</text>
+
+</svg>

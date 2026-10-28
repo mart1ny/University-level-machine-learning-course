@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 460" fill="none">
+<rect width="980" height="460" rx="16" fill="#ffffff"/>
+<line x1="70" y1="28" x2="70" y2="390" stroke="#102044" stroke-width="3"/>
+<line x1="70" y1="390" x2="640" y2="390" stroke="#102044" stroke-width="3"/>
+<text x="78" y="26" fill="#49617f" font-family="Manrope, Arial" font-size="22">y</text>
+<text x="600" y="428" fill="#49617f" font-family="Manrope, Arial" font-size="22">x</text>
+<line x1="120" y1="250" x2="620" y2="70" stroke="#102044" stroke-width="4" stroke-dasharray="6 7"/>
+<line x1="120" y1="300" x2="620" y2="150" stroke="#e0b000" stroke-width="5" stroke-dasharray="12 8"/>
+<line x1="120" y1="330" x2="620" y2="250" stroke="#1168e8" stroke-width="6"/>
+<circle cx="160" cy="285" r="7" fill="#102044"/>
+<circle cx="210" cy="265" r="7" fill="#102044"/>
+<circle cx="260" cy="250" r="7" fill="#102044"/>
+<circle cx="310" cy="230" r="7" fill="#102044"/>
+<circle cx="370" cy="210" r="7" fill="#102044"/>
+<circle cx="420" cy="195" r="7" fill="#102044"/>
+<circle cx="480" cy="175" r="7" fill="#102044"/>
+<circle cx="530" cy="165" r="7" fill="#102044"/>
+<circle cx="200" cy="310" r="7" fill="#102044"/>
+<circle cx="280" cy="270" r="7" fill="#102044"/>
+<circle cx="360" cy="240" r="7" fill="#102044"/>
+<circle cx="450" cy="200" r="7" fill="#102044"/>
+<circle cx="510" cy="185" r="7" fill="#102044"/>
+<circle cx="560" cy="340" r="9" fill="#c59200"/>
+<text x="640" y="78" fill="#102044" font-family="Manrope, Arial" font-size="26" font-weight="800">квантиль</text>
+<text x="640" y="158" fill="#a07d00" font-family="Manrope, Arial" font-size="26" font-weight="800">медиана</text>
+<text x="640" y="258" fill="#1168e8" font-family="Manrope, Arial" font-size="26" font-weight="800">среднее</text>
+</svg>

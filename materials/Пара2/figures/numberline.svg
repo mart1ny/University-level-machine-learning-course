@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420" fill="none">
+<rect width="1100" height="420" rx="16" fill="#ffffff"/>
+<line x1="80" y1="210" x2="1016" y2="210" stroke="#102044" stroke-width="4"/>
+<line x1="80" y1="200" x2="80" y2="220" stroke="#102044" stroke-width="3"/>
+<text x="80" y="252" text-anchor="middle" fill="#49617f" font-family="Manrope, Arial" font-size="22">0</text>
+<line x1="236" y1="200" x2="236" y2="220" stroke="#102044" stroke-width="3"/>
+<text x="236" y="252" text-anchor="middle" fill="#49617f" font-family="Manrope, Arial" font-size="22">2</text>
+<line x1="392" y1="200" x2="392" y2="220" stroke="#102044" stroke-width="3"/>
+<text x="392" y="252" text-anchor="middle" fill="#49617f" font-family="Manrope, Arial" font-size="22">4</text>
+<line x1="548" y1="200" x2="548" y2="220" stroke="#102044" stroke-width="3"/>
+<text x="548" y="252" text-anchor="middle" fill="#49617f" font-family="Manrope, Arial" font-size="22">6</text>
+<line x1="704" y1="200" x2="704" y2="220" stroke="#102044" stroke-width="3"/>
+<text x="704" y="252" text-anchor="middle" fill="#49617f" font-family="Manrope, Arial" font-size="22">8</text>
+<line x1="860" y1="200" x2="860" y2="220" stroke="#102044" stroke-width="3"/>
+<text x="860" y="252" text-anchor="middle" fill="#49617f" font-family="Manrope, Arial" font-size="22">10</text>
+<line x1="1016" y1="200" x2="1016" y2="220" stroke="#102044" stroke-width="3"/>
+<text x="1016" y="252" text-anchor="middle" fill="#49617f" font-family="Manrope, Arial" font-size="22">12</text>
+<circle cx="236" cy="188" r="12" fill="#102044"/>
+<circle cx="236" cy="158" r="12" fill="#102044"/>
+<text x="200" y="150" text-anchor="end" fill="#49617f" font-family="Manrope, Arial" font-size="20">×2</text>
+<circle cx="314" cy="188" r="12" fill="#102044"/>
+<circle cx="860" cy="188" r="12" fill="#102044"/>
+<line x1="275.0" y1="78" x2="275.0" y2="198" stroke="#e0b000" stroke-width="4"/>
+<text x="275.0" y="46" text-anchor="middle" fill="#a07d00" font-family="Manrope, Arial" font-size="24" font-weight="800">медиана 2,5</text>
+<text x="275.0" y="72" text-anchor="middle" fill="#49617f" font-family="Manrope, Arial" font-size="18">середина списка</text>
+<line x1="411.5" y1="222" x2="411.5" y2="330" stroke="#1168e8" stroke-width="4"/>
+<text x="411.5" y="360" text-anchor="middle" fill="#1168e8" font-family="Manrope, Arial" font-size="24" font-weight="800">среднее 4,25</text>
+<text x="411.5" y="388" text-anchor="middle" fill="#49617f" font-family="Manrope, Arial" font-size="18">(2+2+3+10) / 4</text>
+<line x1="860" y1="70" x2="860" y2="170" stroke="#102044" stroke-width="4" stroke-dasharray="2 0"/>
+<text x="860" y="46" text-anchor="middle" fill="#102044" font-family="Manrope, Arial" font-size="24" font-weight="800">порог 90% = 10</text>
+</svg>

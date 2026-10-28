@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" fill="none">
+<rect width="760" height="500" rx="16" fill="#ffffff"/>
+<line x1="70" y1="36" x2="70" y2="430" stroke="#102044" stroke-width="3.5"/>
+<line x1="70" y1="430" x2="720" y2="430" stroke="#102044" stroke-width="3.5"/>
+<line x1="180" y1="430" x2="555" y2="55" stroke="#9aabc0" stroke-width="3.5" stroke-dasharray="9 8"/>
+<line x1="145" y1="368.2" x2="640" y2="96.0" stroke="#1168e8" stroke-width="5"/>
+<circle cx="165.0" cy="375.2" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="215.0" cy="309.8" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="240.0" cy="330.0" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="265.0" cy="292.2" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="320.0" cy="288.0" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="345.0" cy="240.2" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="375.0" cy="253.8" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="440.0" cy="190.0" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="465.0" cy="212.2" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="495.0" cy="163.8" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="555.0" cy="156.8" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="585.0" cy="108.2" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="200.0" cy="312.0" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="310.0" cy="301.5" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="430.0" cy="229.5" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="510.0" cy="145.5" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="250.0" cy="338.5" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="360.0" cy="242.0" r="6.5" fill="#102044" fill-opacity="0.55"/>
+<circle cx="190.0" cy="343.5" r="10" fill="#102044" fill-opacity="1"/>
+<circle cx="290.0" cy="288.5" r="10" fill="#102044" fill-opacity="1"/>
+<circle cx="410.0" cy="222.5" r="10" fill="#102044" fill-opacity="1"/>
+<circle cx="530.0" cy="156.5" r="10" fill="#102044" fill-opacity="1"/>
+<text x="84" y="34" fill="#102044" font-family="Manrope, Arial" font-size="26" font-weight="700">сын</text>
+<text x="548" y="472" fill="#49617f" font-family="Manrope, Arial" font-size="26">родители</text>
+<text x="430" y="64" fill="#60718c" font-family="Manrope, Arial" font-size="22">45°</text>
+</svg>

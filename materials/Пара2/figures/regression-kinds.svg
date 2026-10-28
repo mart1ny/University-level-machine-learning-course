@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 640" fill="none"><rect width="1180" height="640" fill="#ffffff"/><g transform="translate(8.0,8.0)">
+<rect width="573.0" height="303.0" rx="16" fill="#f7faff"/>
+<text x="22" y="38" fill="#102044" font-family="Manrope, Arial" font-size="26" font-weight="800">Простая линейная</text>
+
+<line x1="46" y1="250" x2="46" y2="70" stroke="#102044" stroke-width="3"/>
+<line x1="46" y1="250" x2="530" y2="250" stroke="#102044" stroke-width="3"/>
+<line x1="90" y1="220" x2="490" y2="100" stroke="#1168e8" stroke-width="5"/>
+<circle cx="150" cy="198" r="8" fill="#102044"/>
+<circle cx="250" cy="166" r="8" fill="#102044"/>
+<circle cx="350" cy="136" r="8" fill="#102044"/>
+<circle cx="450" cy="108" r="8" fill="#102044"/>
+
+<text x="22" y="285.0" fill="#49617f" font-family="Manrope, Arial" font-size="18">один признак, прямая на плоскости</text>
+</g><g transform="translate(599.0,8.0)">
+<rect width="573.0" height="303.0" rx="16" fill="#f7faff"/>
+<text x="22" y="38" fill="#102044" font-family="Manrope, Arial" font-size="26" font-weight="800">Множественная линейная</text>
+<rect x="36" y="96" width="42" height="36" rx="8" fill="#1168e8"/>
+<text x="57" y="121" text-anchor="middle" fill="#ffffff" font-family="Manrope, Arial" font-size="18" font-weight="700">1</text>
+<rect x="36" y="140" width="42" height="36" rx="8" fill="#1168e8"/>
+<text x="57" y="165" text-anchor="middle" fill="#ffffff" font-family="Manrope, Arial" font-size="18" font-weight="700">1</text>
+<rect x="36" y="184" width="42" height="36" rx="8" fill="#1168e8"/>
+<text x="57" y="209" text-anchor="middle" fill="#ffffff" font-family="Manrope, Arial" font-size="18" font-weight="700">1</text>
+<rect x="90" y="96" width="42" height="36" rx="8" fill="#d5e4f7"/>
+<text x="111" y="121" text-anchor="middle" fill="#102044" font-family="Manrope, Arial" font-size="18" font-weight="700">2</text>
+<rect x="90" y="140" width="42" height="36" rx="8" fill="#d5e4f7"/>
+<text x="111" y="165" text-anchor="middle" fill="#102044" font-family="Manrope, Arial" font-size="18" font-weight="700">5</text>
+<rect x="90" y="184" width="42" height="36" rx="8" fill="#d5e4f7"/>
+<text x="111" y="209" text-anchor="middle" fill="#102044" font-family="Manrope, Arial" font-size="18" font-weight="700">1</text>
+<rect x="144" y="96" width="42" height="36" rx="8" fill="#d5e4f7"/>
+<text x="165" y="121" text-anchor="middle" fill="#102044" font-family="Manrope, Arial" font-size="18" font-weight="700">0</text>
+<rect x="144" y="140" width="42" height="36" rx="8" fill="#d5e4f7"/>
+<text x="165" y="165" text-anchor="middle" fill="#102044" font-family="Manrope, Arial" font-size="18" font-weight="700">3</text>
+<rect x="144" y="184" width="42" height="36" rx="8" fill="#d5e4f7"/>
+<text x="165" y="209" text-anchor="middle" fill="#102044" font-family="Manrope, Arial" font-size="18" font-weight="700">4</text>
+<rect x="198" y="96" width="42" height="36" rx="8" fill="#d5e4f7"/>
+<text x="219" y="121" text-anchor="middle" fill="#102044" font-family="Manrope, Arial" font-size="18" font-weight="700">1</text>
+<rect x="198" y="140" width="42" height="36" rx="8" fill="#d5e4f7"/>
+<text x="219" y="165" text-anchor="middle" fill="#102044" font-family="Manrope, Arial" font-size="18" font-weight="700">0</text>
+<rect x="198" y="184" width="42" height="36" rx="8" fill="#d5e4f7"/>
+<text x="219" y="209" text-anchor="middle" fill="#102044" font-family="Manrope, Arial" font-size="18" font-weight="700">2</text>
+<text x="280" y="160" fill="#1168e8" font-family="Manrope, Arial" font-size="30" font-weight="800">Xw</text>
+<text x="360" y="155" fill="#102044" font-family="Manrope, Arial" font-size="24">→  ŷ</text>
+<text x="22" y="285.0" fill="#49617f" font-family="Manrope, Arial" font-size="18">много столбцов, на выходе одно число</text>
+</g><g transform="translate(8.0,329.0)">
+<rect width="573.0" height="303.0" rx="16" fill="#f7faff"/>
+<text x="22" y="38" fill="#102044" font-family="Manrope, Arial" font-size="26" font-weight="800">Полиномиальная</text>
+
+<line x1="46" y1="250" x2="46" y2="70" stroke="#102044" stroke-width="3"/>
+<line x1="46" y1="250" x2="530" y2="250" stroke="#102044" stroke-width="3"/>
+<line x1="110" y1="200" x2="480" y2="175" stroke="#9aabc0" stroke-width="3" stroke-dasharray="8 7"/>
+<polyline points="80.0,245.0 89.1,232.5 98.3,220.6 107.4,209.1 116.6,198.3 125.7,188.0 134.9,178.2 144.0,168.9 153.2,160.3 162.3,152.1 171.5,144.5 180.6,137.4 189.8,130.9 198.9,124.9 208.1,119.5 217.2,114.6 226.4,110.3 235.5,106.5 244.7,103.2 253.8,100.5 263.0,98.3 272.1,96.7 281.3,95.6 290.4,95.1 299.6,95.1 308.7,95.6 317.9,96.7 327.0,98.3 336.2,100.5 345.3,103.2 354.5,106.5 363.6,110.3 372.8,114.6 381.9,119.5 391.1,124.9 400.2,130.9 409.4,137.4 418.5,144.5 427.7,152.1 436.8,160.3 446.0,168.9 455.1,178.2 464.3,188.0 473.4,198.3 482.6,209.1 491.7,220.6 500.9,232.5 510.0,245.0" fill="none" stroke="#1168e8" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="123.0" cy="191.0" r="7" fill="#102044"/><circle cx="209.0" cy="119.0" r="7" fill="#102044"/><circle cx="295.0" cy="95.0" r="7" fill="#102044"/><circle cx="381.0" cy="119.0" r="7" fill="#102044"/><circle cx="467.0" cy="191.0" r="7" fill="#102044"/>
+
+<text x="22" y="285.0" fill="#49617f" font-family="Manrope, Arial" font-size="18">пунктир — только x; синяя кривая — столбцы x и x²</text>
+</g><g transform="translate(599.0,329.0)">
+<rect width="573.0" height="303.0" rx="16" fill="#f7faff"/>
+<text x="22" y="38" fill="#102044" font-family="Manrope, Arial" font-size="26" font-weight="800">Логистическая</text>
+
+<line x1="46" y1="248" x2="46" y2="70" stroke="#102044" stroke-width="3"/>
+<line x1="46" y1="248" x2="530" y2="248" stroke="#102044" stroke-width="3"/>
+<line x1="46" y1="90" x2="530" y2="90" stroke="#d5e1f0" stroke-width="2"/>
+<text x="52" y="86" fill="#49617f" font-family="Manrope, Arial" font-size="15">1</text>
+<text x="52" y="242" fill="#49617f" font-family="Manrope, Arial" font-size="15">0</text>
+<polyline points="80.0,238.4 87.3,238.1 94.6,237.8 101.9,237.4 109.2,237.0 116.4,236.5 123.7,236.0 131.0,235.3 138.3,234.6 145.6,233.7 152.9,232.7 160.2,231.6 167.5,230.3 174.7,228.8 182.0,227.1 189.3,225.2 196.6,223.0 203.9,220.6 211.2,217.9 218.5,214.8 225.8,211.5 233.1,207.8 240.3,203.8 247.6,199.4 254.9,194.7 262.2,189.8 269.5,184.6 276.8,179.1 284.1,173.5 291.4,167.9 298.6,162.1 305.9,156.5 313.2,150.9 320.5,145.4 327.8,140.2 335.1,135.3 342.4,130.6 349.7,126.2 356.9,122.2 364.2,118.5 371.5,115.2 378.8,112.1 386.1,109.4 393.4,107.0 400.7,104.8 408.0,102.9 415.3,101.2 422.5,99.7 429.8,98.4 437.1,97.3 444.4,96.3 451.7,95.4 459.0,94.7 466.3,94.0 473.6,93.5 480.8,93.0 488.1,92.6 495.4,92.2 502.7,91.9 510.0,91.6" fill="none" stroke="#1168e8" stroke-width="5"/>
+<circle cx="130" cy="242" r="7" fill="#102044"/>
+<circle cx="190" cy="230" r="7" fill="#102044"/>
+<circle cx="400" cy="100" r="7" fill="#102044"/>
+<circle cx="470" cy="94" r="7" fill="#102044"/>
+
+<text x="22" y="285.0" fill="#49617f" font-family="Manrope, Arial" font-size="18">класс и вероятность, не прогноз числа</text>
+</g></svg>

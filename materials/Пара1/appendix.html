@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Пара 1 — Дополнительные слайды</title>
+  <link rel="stylesheet" href="vendor/reveal.js/reveal.css">
+  <link rel="stylesheet" href="vendor/katex/dist/katex.min.css">
+  <link rel="stylesheet" href="styles.css?v=20261018-1">
+</head>
+<body>
+  <div class="reveal"><div class="slides">
+
+    <section id="supervised-goal">
+      <p class="eyebrow">Обучение с учителем · строгая идея</p>
+      <h2>Учимся на известных ответах, проверяем на новых</h2>
+      <div class="formula hero-formula">\[f^*=\arg\min_{f\in\mathcal F}\;\mathbb E_{(x,y)\sim P}\bigl[L(f(x),y)\bigr]\]</div>
+      <div class="three-lines">
+        <p><strong>f</strong><span>правило предсказания из выбранного семейства</span></p>
+        <p><strong>L</strong><span>насколько плох конкретный прогноз</span></p>
+        <p><strong>P</strong><span>неизвестное распределение будущих объектов</span></p>
+      </div>
+      <aside class="notes">Покажите математический идеал, не требуя вывести формулу: хотим минимизировать среднюю ошибку на будущих данных из того же контекста. P неизвестно, поэтому в реальности работаем с конечной выборкой и приближением ожидания. Укажите предположение о сопоставимости будущих и учебных данных: при сдвиге распределения даже честный тест прошлого может ошибаться. Термин «семейство моделей» означает набор допустимых функций f.</aside>
+    </section>
+
+    <section id="s20">
+      <p class="eyebrow">Формальная запись</p>
+      <h2>Обучающая выборка — пары «признаки, ответ»</h2>
+      <div class="formula hero-formula">\[\mathcal D=\{(x_i,y_i)\}_{i=1}^{n}\]</div>
+      <div class="dataset-grid">
+        <span>​\(x_i\)</span><strong>признаки i-й квартиры</strong>
+        <span>​\(y_i\)</span><strong>известная цена i-й квартиры</strong>
+        <span>​\(n\)</span><strong>число обучающих примеров</strong>
+      </div>
+      <aside class="notes">Прочитайте формулу спокойно, не выводите её. D — набор из n пар, индекс i нумерует квартиры. x_i — строка признаков, y_i — ответ. Попросите показать, где в таблице x и где y. Формальная постановка supervised learning соответствует вводной лекции Тренировок по ML 1.0 Яндекса.</aside>
+    </section>
+
+    <section id="empirical-risk">
+      <p class="eyebrow">От идеала к вычислению</p>
+      <h2>На практике минимизируем ошибку на выборке</h2>
+      <div class="formula hero-formula">\[\hat R(f)=\frac{1}{n}\sum_{i=1}^{n}L\bigl(f(x_i),y_i\bigr)\]</div>
+      <p class="big-question">Но малая ошибка на обучении не гарантирует малую ошибку на новых объектах.</p>
+      <aside class="notes">Свяжите с формулой математической цели: истинное ожидание неизвестно, поэтому заменяем его средним по обучающим примерам. Эта замена работает только при определённых предположениях о данных и не устраняет проблему переобучения. Запись общая: не всякий алгоритм буквально решает эту задачу через градиентный спуск; KNN, например, устроен иначе. Формула помогает понять, почему модели может быть выгодно «запоминать» обучающие объекты.</aside>
+    </section>
+
+    <section id="clusters-not-classes">
+      <p class="eyebrow">Ключевое различие</p>
+      <h2>Кластер — не готовый класс</h2>
+      <div class="comparison">
+        <div><h3>Классификация</h3><p>Метки заданы извне: «спам» и «не спам». Ошибку можно сравнить с известным ответом.</p></div>
+        <div><h3>Кластеризация</h3><p>Алгоритм сам группирует объекты по выбранному признаковому описанию и мере близости.</p></div>
+      </div>
+      <p class="muted">Изменим признаки или масштаб — можем получить иные кластеры.</p>
+      <aside class="notes">Пример: магазин хочет понять структуру покупательского поведения. Кластеры на сумме покупок и частоте визитов отличаются от кластеров на категориях товаров. Кластеры не имеют заранее заданной семантики; аналитик интерпретирует их после построения. Даже если назвать кластер «лояльные», это не делает его размеченным классом. Подчеркните влияние scaling и выбора расстояния.</aside>
+    </section>
+
+    <section id="algorithm-tradeoffs">
+      <p class="eyebrow">Индуктивные предположения</p>
+      <h2>Чем модели отличаются до запуска кода</h2>
+      <div class="algorithm-grid">
+        <p><strong>KNN</strong><span>близкие объекты имеют похожие ответы</span></p>
+        <p><strong>Линейная</strong><span>вклад признаков можно сложить с весами</span></p>
+        <p><strong>Дерево</strong><span>простые пороговые правила разбивают пространство</span></p>
+        <p><strong>Лес</strong><span>усреднение снижает нестабильность деревьев</span></p>
+        <p><strong>Бустинг</strong><span>новые модели исправляют ошибки ансамбля</span></p>
+      </div>
+      <aside class="notes">Это обзор полезных предположений, а не строгая характеристика всех вариантов. KNN чувствителен к расстоянию и масштабу; линейная модель понятна и быстра, но требует подходящего представления признаков; отдельное дерево может переобучаться; лес уменьшает вариацию; бустинг последовательно улучшает ансамбль. На вопрос «какую выбрать?» ответ: baseline, ограничения задачи и честная валидация. Не говорите, что бустинг всегда побеждает.</aside>
+    </section>
+
+    <section id="s16">
+      <p class="eyebrow">Карта алгоритмов · без учителя</p>
+      <h2>Здесь нет правильных ответов для обучения</h2>
+      <div class="three-lines">
+        <p><strong>K-Means</strong><span>ищет центры групп</span></p>
+        <p><strong>DBSCAN</strong><span>находит плотные области и шум</span></p>
+        <p><strong>PCA</strong><span>ищет направления максимальной вариации</span></p>
+      </div>
+      <p class="muted">Эти методы подробно разберём на 15-й неделе.</p>
+      <aside class="notes">Важно различить задачу и алгоритм: кластеризация — задача; K-Means и DBSCAN — разные алгоритмы для неё. PCA — снижение размерности, не кластеризация. Не называйте PCA «обучением с учителем» только потому, что у метода есть fit().</aside>
+    </section>
+
+    <section id="split-trap">
+      <p class="eyebrow">Разбиение данных · ловушка</p>
+      <h2>Случайный split не всегда честен</h2>
+      <div class="three-lines">
+        <p><strong>Время</strong><span>для будущих продаж проверяем на более поздних сделках</span></p>
+        <p><strong>Группы</strong><span>объекты одного клиента или дома не должны «подсказывать» друг другу</span></p>
+        <p><strong>Test</strong><span>не используем его, чтобы выбирать признаки и настройки</span></p>
+      </div>
+      <aside class="notes">Объясните, что split должен имитировать реальное применение. Если прогнозируем будущие цены, случайное перемешивание прошлого и будущего может создать недоступную информацию. Если несколько строк относятся к одному клиенту/дому, их разнесение между train/test тоже может завысить качество. Если подбирать модель по test, он становится ещё одной validation-выборкой. Детали временных и групповых схем — позже.</aside>
+    </section>
+
+    <section id="metric-choice">
+      <p class="eyebrow">Метрика — часть постановки</p>
+      <h2>Одна точность не отвечает на все вопросы</h2>
+      <div class="comparison">
+        <div><h3>Цена квартиры</h3><p>MAE отвечает: на сколько рублей мы в среднем ошибаемся по модулю?</p></div>
+        <div><h3>Поиск мошенничества</h3><p>Нужно отдельно думать о пропущенных случаях и ложных тревогах.</p></div>
+      </div>
+      <p class="muted">Выбор метрики зависит от того, какое решение принимают после прогноза.</p>
+      <aside class="notes">Здесь не выводите precision/recall подробно — это неделя 8. Главное: метрику выбирают по цене ошибок и цели, до сравнения алгоритмов. В регрессии MAE интерпретируется в рублях. В мошенничестве высокая accuracy при редких положительных случаях может скрыть бесполезную модель, которая всегда говорит «нет». Не говорите, что есть универсальная правильная метрика.</aside>
+    </section>
+
+  </div></div>
+  <script src="vendor/reveal.js/reveal.js"></script>
+  <script src="vendor/reveal.js/plugin/notes.js"></script>
+  <script src="vendor/katex/dist/katex.min.js"></script>
+  <script src="vendor/katex/dist/contrib/auto-render.min.js"></script>
+  <script>
+    renderMathInElement(document.querySelector('.slides'), {
+      delimiters: [
+        { left: '\\[', right: '\\]', display: true },
+        { left: '\\(', right: '\\)', display: false }
+      ],
+      ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code', 'option', 'aside'],
+      throwOnError: false
+    });
+    Reveal.initialize({
+      hash: true,
+      controls: true,
+      progress: true,
+      slideNumber: 'c/t',
+      transition: 'fade',
+      transitionSpeed: 'fast',
+      width: 1600,
+      height: 900,
+      margin: 0.06,
+      center: false,
+      plugins: [RevealNotes]
+    });
+    if (new URLSearchParams(window.location.search).has('post')) {
+      document.querySelector('.reveal').classList.add('post-mode');
+    }
+  </script>
+</body>
+</html>

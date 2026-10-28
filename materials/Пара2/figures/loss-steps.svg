@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520">
+  <rect width="700" height="520" rx="16" fill="#ffffff"/>
+  <line x1="64" y1="36" x2="64" y2="420" stroke="#102044" stroke-width="3"/>
+  <line x1="64" y1="420" x2="640" y2="420" stroke="#102044" stroke-width="3"/>
+  <polyline points="110,90 176,230 242,312 308,360 374,388 440,404 506,414 572,418" fill="none" stroke="#1168e8" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="110" cy="90" r="8" fill="#1168e8"/>
+  <circle cx="176" cy="230" r="8" fill="#1168e8"/>
+  <circle cx="242" cy="312" r="8" fill="#1168e8"/>
+  <circle cx="308" cy="360" r="8" fill="#1168e8"/>
+  <circle cx="374" cy="388" r="8" fill="#1168e8"/>
+  <circle cx="440" cy="404" r="8" fill="#1168e8"/>
+  <circle cx="506" cy="414" r="8" fill="#1168e8"/>
+  <circle cx="572" cy="418" r="11" fill="#e0b000" stroke="#102044" stroke-width="3"/>
+  <text x="78" y="28" fill="#49617f" font-family="Arial, sans-serif" font-size="22">ошибка</text>
+  <text x="100" y="448" fill="#49617f" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">1</text>
+  <text x="176" y="448" fill="#49617f" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">2</text>
+  <text x="242" y="448" fill="#49617f" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">3</text>
+  <text x="308" y="448" fill="#49617f" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">4</text>
+  <text x="374" y="448" fill="#49617f" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">5</text>
+  <text x="440" y="448" fill="#49617f" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">6</text>
+  <text x="506" y="448" fill="#49617f" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">7</text>
+  <text x="572" y="448" fill="#174b94" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">8</text>
+  <text x="600" y="412" fill="#174b94" font-family="Arial, sans-serif" font-size="22" font-weight="700">0</text>
+  <text x="640" y="478" fill="#49617f" font-family="Arial, sans-serif" font-size="22" text-anchor="end">шаг</text>
+  <text x="340" y="508" fill="#174b94" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">с каждым шагом к нулевой ошибке</text>
+</svg>

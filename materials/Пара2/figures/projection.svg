@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" fill="none">
+<rect width="640" height="380" rx="16" fill="#ffffff"/>
+
+<line x1="40" y1="300" x2="560" y2="300" stroke="#102044" stroke-width="3"/>
+<text x="520" y="332" fill="#49617f" font-family="Manrope, Arial" font-size="22">столбцы X</text>
+<line x1="120" y1="300" x2="250" y2="90" stroke="#102044" stroke-width="4"/>
+<circle cx="250" cy="90" r="7" fill="#102044"/>
+<text x="262" y="84" fill="#102044" font-family="Manrope, Arial" font-size="24" font-weight="700">y</text>
+<line x1="120" y1="300" x2="360" y2="300" stroke="#1168e8" stroke-width="5"/>
+<circle cx="360" cy="300" r="7" fill="#1168e8"/>
+<text x="300" y="284" fill="#1168e8" font-family="Manrope, Arial" font-size="22">Xŵ</text>
+<line x1="360" y1="300" x2="250" y2="90" stroke="#e0b000" stroke-width="4"/>
+<text x="372" y="180" fill="#a07d00" font-family="Manrope, Arial" font-size="22">остаток</text>
+<path d="M360 276 L336 276 L336 300" fill="none" stroke="#102044" stroke-width="2"/>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" fill="none">
+<rect width="720" height="460" rx="16" fill="#ffffff"/>
+
+<text x="36" y="40" fill="#102044" font-family="Arial, sans-serif" font-size="26" font-weight="700">Разброс трёх ответов</text>
+
+<text x="150" y="92" text-anchor="middle" fill="#102044" font-family="Arial, sans-serif" font-size="32" font-weight="700">0,67</text>
+<rect x="70" y="108" width="160" height="220" rx="8" fill="#d5e4f7"/>
+<text x="150" y="360" text-anchor="middle" fill="#102044" font-family="Arial, sans-serif" font-size="22" font-weight="700">от среднего 1,67</text>
+<text x="150" y="390" text-anchor="middle" fill="#49617f" font-family="Arial, sans-serif" font-size="18">ответы 1, 2 и 2</text>
+
+<text x="360" y="210" text-anchor="middle" fill="#49617f" font-family="Arial, sans-serif" font-size="20">прямая забрала</text>
+<text x="360" y="258" text-anchor="middle" fill="#1168e8" font-family="Arial, sans-serif" font-size="48" font-weight="800">0,75</text>
+<text x="360" y="292" text-anchor="middle" fill="#49617f" font-family="Arial, sans-serif" font-size="20">три четверти</text>
+
+<text x="570" y="248" text-anchor="middle" fill="#102044" font-family="Arial, sans-serif" font-size="32" font-weight="700">0,17</text>
+<rect x="490" y="262" width="160" height="66" rx="8" fill="#1168e8"/>
+<text x="570" y="360" text-anchor="middle" fill="#102044" font-family="Arial, sans-serif" font-size="22" font-weight="700">от прямой</text>
+<text x="570" y="390" text-anchor="middle" fill="#49617f" font-family="Arial, sans-serif" font-size="18">в 4 раза меньше</text>
+</svg>
